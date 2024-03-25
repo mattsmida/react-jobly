@@ -24,13 +24,12 @@ function Homepage() {
 
   return (
     <div className="Homepage">
-      {/* TODO: background image */}
       <h1>Jobly</h1>
-      <p>All the jobs in one, convenient place.</p>
+      <h2>All the jobs in one, convenient place.</h2>
       {currUser
-        ? <h2>Welcome back, {currUser.firstName}!</h2>
+        ? <h3>Welcome back, {currUser.firstName}!</h3>
         : (
-          <div>
+          <div class="Homepage-buttons">
             <Link to="/signup">Sign up</Link>
             &nbsp;&nbsp;&nbsp;
             <Link to="/login">Log in</Link>

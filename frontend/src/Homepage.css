@@ -1,6 +1,53 @@
+.Homepage {
+  position: relative;
+  top: 30vh;
+}
+
 .Homepage a {
   color: #369;
   text-decoration: none;
   font-weight: bold;
+}
 
+body {
+  background-image: url('../public/background-home.jpg');
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+.Homepage-buttons {
+  font-size: 1.5rem;
+}
+
+
+@media (min-width: 768px){
+  h1 {
+    font-size: 6rem;
+  }
+
+  h2 {
+    font-size: 4rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  .Homepage-buttons {
+    font-size: 3rem;
+  }
 }
