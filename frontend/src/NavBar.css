@@ -4,9 +4,12 @@
 }
 
 .NavBar a {
-  /* display: inline-block */
   text-decoration: none;
   cursor: pointer;
+}
+
+#brand a {
+  color: black;
 }
 
 .NavBar li {
@@ -14,12 +17,19 @@
   margin: 0 10px;
 }
 
-.NavBar-nav a:hover {
-  color: black;
-  font-weight: bold;
+.NavBar-nav {
+  position:absolute;
+  right: 30px;
 }
 
-.NavBar-nav a.active {
+.NavBar a {
   color: black;
-  /* font-weight: bold; */
+}
+
+.NavBar a:hover {
+  color: black;
+}
+
+.NavBar a.active {
+  color: tomato;
 }
