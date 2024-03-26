@@ -1,0 +1,18 @@
+.ProfileForm {
+  margin: 0 auto;
+  box-sizing: border-box;
+  width: 40%;
+  padding: 1em;
+  border: none;
+}
+
+.ProfileForm-field {
+  padding: 5px;
+}
+
+.ProfileForm button {
+  padding: 3px;
+  background: slateblue;
+  color: #fff;
+  border-radius: 5px;
+}

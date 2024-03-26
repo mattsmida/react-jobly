@@ -59,24 +59,27 @@ function ProfileForm({ updateProfile }) {
             onChange={handleChange}
           />
         </div> */}
-        <div>
-          <label htmlFor="firstName">First Name: </label>
+        <div class="SignupForm-field">
+          <label htmlFor="firstName">First Name</label>
+          <br></br>
           <input
             name="firstName"
             value={formData.firstName}
             onChange={handleChange}
           />
         </div>
-        <div>
-          <label htmlFor="lastName">Last Name: </label>
+        <div class="SignupForm-field">
+          <label htmlFor="lastName">Last Name</label>
+          <br></br>
           <input
             name="lastName"
             value={formData.lastName}
             onChange={handleChange}
           />
         </div>
-        <div>
-          <label htmlFor="email">Email: </label>
+        <div class="SignupForm-field">
+          <label htmlFor="email">Email</label>
+          <br></br>
           <input
             name="email"
             value={formData.email}
