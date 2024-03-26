@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
+import './SearchForm.css';
 
 /**
  * A text input search field with submit button
@@ -30,7 +31,7 @@ function SearchForm({ searchFn, msg }) {
   }
 
   return (
-    <div>
+    <div class="SearchForm">
       <form onSubmit={handleSubmit}>
         <input type='text'
           name='searchInput'

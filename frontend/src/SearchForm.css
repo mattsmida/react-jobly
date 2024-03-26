@@ -1,0 +1,12 @@
+.SearchForm {
+  margin: 10px;
+  padding: 5px;
+}
+
+.SearchForm button {
+  margin: 10px;
+  padding: 3px;
+  background: slateblue;
+  color: #fff;
+  border-radius: 5px;
+}
