@@ -19,8 +19,8 @@ import './CompanyCard.css';
 function CompanyCard({ company }) {
   console.log("Rendering CompanyCard with company: ", company);
   return (
-    <Link className="CompanyCard" to={`/companies/${company.handle}`}>
-      <div className="CompanyCard-card">
+    <div className="CompanyCard-card">
+      <Link className="CompanyCard" to={`/companies/${company.handle}`}>
         <h4>{company.name}</h4>
         {company.logoUrl
           ? <img src={company.logoUrl} alt={company.name} />
@@ -29,8 +29,8 @@ function CompanyCard({ company }) {
         <div className="CompanyCard-card-description">
           <p>{company.description}</p>
         </div>
-      </div>
-    </Link>
+      </Link>
+    </div>
   );
 }
 

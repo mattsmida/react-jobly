@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import JoblyApi from './api';
 import CompanyCard from './CompanyCard';
 import SearchForm from './SearchForm';
+import './CompanyList.css';
 
 /**
  *  CompanyList shows a page with a list of all companies.
