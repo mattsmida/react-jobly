@@ -28,6 +28,10 @@
   align-items: center;
 }
 
+.CompanyCard-card img {
+  padding: 10px;
+}
+
 .CompanyCard-card-description {
   margin-left: 15px;
 }

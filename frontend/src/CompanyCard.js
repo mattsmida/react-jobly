@@ -21,7 +21,7 @@ function CompanyCard({ company }) {
   return (
     <div className="CompanyCard-card">
       <Link className="CompanyCard" to={`/companies/${company.handle}`}>
-        <h4>{company.name}</h4>
+        <h4>{company.name}&nbsp;</h4>
         {company.logoUrl
           ? <img src={company.logoUrl} alt={company.name} />
           : ""
