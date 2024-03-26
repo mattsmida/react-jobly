@@ -47,10 +47,11 @@ function SignupForm({ signUp }) {
   }
   return (
     <div className='SignupForm'>
-      <h2>Signup!</h2>
+      <h2>Sign up for Jobly</h2>
       <form onSubmit={handleSubmit}>
-        <div>
-          <label htmlFor="username">Username: </label>
+        <div class="SignupForm-field">
+          <label htmlFor="username">Username</label>
+          <br></br>
           <input
             name="username"
             id="username"
@@ -58,8 +59,9 @@ function SignupForm({ signUp }) {
             onChange={handleChange}
           />
         </div>
-        <div>
-          <label htmlFor="password">Password: </label>
+        <div class="SignupForm-field">
+          <label htmlFor="password">Password</label>
+          <br></br>
           <input
             name="password"
             id="password"
@@ -68,8 +70,9 @@ function SignupForm({ signUp }) {
             onChange={handleChange}
           />
         </div>
-        <div>
-          <label htmlFor="firstName">First Name: </label>
+        <div class="SignupForm-field">
+          <label htmlFor="firstName">First Name</label>
+          <br></br>
           <input
             name="firstName"
             id="firstName"
@@ -77,8 +80,9 @@ function SignupForm({ signUp }) {
             onChange={handleChange}
           />
         </div>
-        <div>
-          <label htmlFor="lastName">Last Name: </label>
+        <div class="SignupForm-field">
+          <label htmlFor="lastName">Last Name</label>
+          <br></br>
           <input
             name="lastName"
             id="lastName"
@@ -86,8 +90,9 @@ function SignupForm({ signUp }) {
             onChange={handleChange}
           />
         </div>
-        <div>
-          <label htmlFor="email">Email: </label>
+        <div class="SignupForm-field">
+          <label htmlFor="email">Email</label>
+          <br></br>
           <input
             name="email"
             id="email"
