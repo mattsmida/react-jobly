@@ -5,3 +5,9 @@
   border-radius: 4px;
   width: 65%;
 }
+
+.JobList {
+  position: absolute;
+  left: 20%;
+  right: 20%;
+}
