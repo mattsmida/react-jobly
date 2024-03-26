@@ -53,6 +53,7 @@ function JobList() {
 
   return (
     <div className="JobList">
+      <h2>Jobs</h2>
       <div className="JobList-search">
         <SearchForm searchFn={search} msg="Search jobs by title"/>
       </div>

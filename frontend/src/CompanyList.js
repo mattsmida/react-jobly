@@ -48,6 +48,7 @@ function CompanyList() {
 
   return (
     <div className="CompanyList">
+      <h2>Companies</h2>
       <div className="CompanyList-search">
         <SearchForm searchFn={search} msg="Search companies by name"/>
       </div>
