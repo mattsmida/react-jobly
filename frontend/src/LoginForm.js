@@ -49,16 +49,18 @@ function LoginForm({ login }) {
     <div className='LoginForm'>
       <h2>Login</h2>
       <form onSubmit={handleSubmit}>
-        <div>
-          <label htmlFor="username">Username: </label>
+        <div class='LoginForm-field'>
+          <label htmlFor="username">Username</label>
+          <br></br>
           <input
             name="username"
             value={formData.username}
             onChange={handleChange}
           />
         </div>
-        <div>
-          <label htmlFor="password">Password: </label>
+        <div class='LoginForm-field'>
+          <label htmlFor="password">Password</label>
+          <br></br>
           <input
             name="password"
             type="password"

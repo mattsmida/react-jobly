@@ -1,0 +1,18 @@
+.LoginForm {
+  margin: 0 auto;
+  box-sizing: border-box;
+  width: 40%;
+  padding: 1em;
+  border: none;
+}
+
+.LoginForm-field {
+  padding: 5px;
+}
+
+.LoginForm button {
+  padding: 3px;
+  background: slateblue;
+  color: #fff;
+  border-radius: 5px;
+}
