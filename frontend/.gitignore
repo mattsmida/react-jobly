@@ -19,6 +19,7 @@
 .env.production.local
 jobly-improvements.md
 deploy.md
+jobly-all.pdf
 
 npm-debug.log*
 yarn-debug.log*
