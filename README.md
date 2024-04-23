@@ -15,3 +15,7 @@ You can test-drive Jobly at [jobly.m4t7.com](https://jobly.m4t7.com).
 - **User Interface Enhancement**: Improving the user experience through frontend development using React, and CSS.
 
 Working on Jobly offered me a hands-on experience in building modern web applications. By working on this project, I gained proficiency in frontend development, testing, API integration, and user authentication.
+
+---
+
+*AIL3*
