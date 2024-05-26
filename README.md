@@ -2,8 +2,6 @@
 
 Jobly is a job-search tool built using React. Working with an existing codebase, I implemented new features, fixed bugs, wrote tests, and improved the design. My effort on Jobly gave me a better sense for practical software development practices.
 
-You can test-drive Jobly at [jobly.m4t7.com](https://jobly.m4t7.com).
-
 ## Key Takeaways
 
 - **Codebase Familiarization**: Understanding an existing codebase, its structure, and components, which is essential for personal projects and future collaborations.
